@@ -1,16 +1,14 @@
 aid: autozone
-url: 
-  https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml
 apis:
   - aid: autozone:autozonepro
     name: AutoZone Pro Electronic Ordering
     tags:
       - Auto Parts
       - Automotive
-      - Retail
       - EDI
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      - Retail
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://www.autozonepro.com
     humanURL: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
     properties:
