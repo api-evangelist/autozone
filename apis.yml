@@ -1,5 +1,6 @@
 aid: autozone
-url: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml
 apis:
   - aid: autozone:autozonepro
     name: AutoZone Pro Electronic Ordering
@@ -8,7 +9,8 @@ apis:
       - Automotive
       - Retail
       - EDI
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: 
+      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://www.autozonepro.com
     humanURL: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
     properties:
@@ -18,3 +20,7 @@ apis:
       AutoZone Pro provides electronic ordering capabilities for professional
       automotive service providers, enabling parts lookup and ordering through
       EDI-based integrations.
+description: >-
+  AutoZone is a leading retailer and distributor of automotive replacement parts and
+  accessories serving do-it-yourself customers and professional installers across
+  the Americas.
