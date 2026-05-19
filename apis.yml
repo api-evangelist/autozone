@@ -59,6 +59,8 @@ apis:
         url: https://www.autozone.com
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/autozone
   - type: Website
     url: https://www.autozone.com
   - type: Portal
