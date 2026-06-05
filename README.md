@@ -2,13 +2,16 @@
 
 AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 7,000 stores across the Americas. AutoZone serves both do-it-yourself (DIY) customers and professional automotive service providers (DIFM) through retail stores, e-commerce, and electronic ordering integrations for commercial accounts via AutoZone Pro.
 
-**URL:** [https://www.autozone.com](https://www.autozone.com)
-
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml)
 
 ## Tags
 
- - Auto Parts, Automotive Retail, Automotive, Parts Distribution, EDI, Commercial Accounts
+- Auto Parts
+- Automotive Retail
+- Automotive
+- Parts Distribution
+- EDI
+- Commercial Accounts
 
 ## Timestamps
 
@@ -19,68 +22,57 @@ AutoZone is the nation's leading retailer and a leading distributor of automotiv
 
 ### AutoZone Pro Electronic Ordering
 
-AutoZone Pro provides electronic ordering capabilities for professional automotive service providers and repair shops. The platform supports EDI-based parts ordering integrations enabling shop management systems to send parts orders and check availability directly from AutoZone's catalog and inventory systems.
+AutoZone Pro provides electronic ordering capabilities for professional automotive service providers and repair shops. The platform supports EDI-based parts ordering integrations enabling shop management systems (SMS) and point-of- sale systems to send parts orders, check availability, and receive confirmations directly from AutoZone's catalog and inventory systems.
 
-**Human URL:** [https://www.autozonepro.com/info/about/Electronic-Ordering.jsp](https://www.autozonepro.com/info/about/Electronic-Ordering.jsp)
+- **Human URL:** [https://www.autozonepro.com/info/about/Electronic-Ordering.jsp](https://www.autozonepro.com/info/about/Electronic-Ordering.jsp)
+- **Base URL:** `https://www.autozonepro.com`
 
 #### Tags
 
- - Auto Parts, Automotive, EDI, Electronic Ordering, Commercial Accounts, Professional Installers
+- Auto Parts
+- Automotive
+- EDI
+- Electronic Ordering
+- Commercial Accounts
+- Professional Installers
 
 #### Properties
 
 - [Website](https://www.autozonepro.com/info/about/Electronic-Ordering.jsp)
 - [Portal](https://www.autozonepro.com)
+- [Postman Collection](collections/autozonepro.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/autozonepro.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ### AutoZone E-Commerce Platform
 
-AutoZone's e-commerce platform enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delivery, and manage commercial accounts.
+AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delivery, and manage their AutoZone loyalty and commercial accounts.
 
-**Human URL:** [https://www.autozone.com](https://www.autozone.com)
+- **Human URL:** [https://www.autozone.com](https://www.autozone.com)
 
 #### Tags
 
- - Auto Parts, E-Commerce, Parts Search, Online Ordering
+- Auto Parts
+- E-Commerce
+- Parts Search
+- Online Ordering
 
 #### Properties
 
 - [Website](https://www.autozone.com)
+- [Postman Collection](collections/autozonepro.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/autozonepro.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ## Common Properties
 
+- [LinkedIn](https://www.linkedin.com/company/autozone)
 - [Website](https://www.autozone.com)
-- [AutoZone Pro Portal](https://www.autozonepro.com)
+- [Portal](https://www.autozonepro.com)
 - [GitHub Organization](https://github.com/autozone)
-
-## Features
-
-| Name | Description |
-|------|-------------|
-| Electronic Ordering Integration | EDI-based electronic ordering for professional shop management systems to submit parts orders directly to AutoZone commercial accounts. |
-| Parts Catalog Search | Comprehensive automotive parts catalog search by year, make, model, and engine with cross-reference lookup across AutoZone's inventory. |
-| Commercial Account Management | AutoZone Pro commercial accounts with net terms, purchase history, and account management for professional automotive service businesses. |
-| ALLDATA Integration | AutoZone owns ALLDATA, a leading automotive repair information system providing OEM repair data, wiring diagrams, and technical service bulletins integrated with parts ordering workflows. |
-| Store Inventory Lookup | Real-time inventory availability checking across 7,000+ AutoZone stores for in-store pickup and same-day availability. |
-
-## Use Cases
-
-| Name | Description |
-|------|-------------|
-| Professional Shop Parts Ordering | Automotive repair shops integrate their shop management software with AutoZone Pro for seamless parts ordering and delivery. |
-| Fleet Parts Procurement | Fleet operators establish AutoZone commercial accounts for centralized parts procurement across multiple vehicles and locations. |
-| DIY Auto Repair | Do-it-yourself customers use AutoZone's website and app to find the correct parts, watch how-to videos, and purchase for pickup or delivery. |
-| Repair Information Access | Shops using ALLDATA access OEM repair data and technical information integrated with AutoZone parts availability and pricing. |
-
-## Integrations
-
-| Name | Description |
-|------|-------------|
-| Shop Management Systems | Electronic ordering integrations with leading SMS platforms including Mitchell 1, ALLDATA Repair, Tekmetric, and Shop-Ware for professional shops. |
-| ALLDATA | AutoZone's ALLDATA subsidiary provides OEM repair information integrated with parts ordering for professional repair facilities. |
-| Fleet Management Software | Integration with fleet maintenance platforms for commercial accounts managing parts procurement across vehicle fleets. |
+- [Features](undefined)
+- [Use Cases](undefined)
+- [Integrations](undefined)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com
