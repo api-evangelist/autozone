@@ -60,6 +60,8 @@ apis:
         url: https://www.autozone.com
 
 common:
+  - type: DomainSecurity
+    url: security/autozone-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/autozone
   - type: Website
