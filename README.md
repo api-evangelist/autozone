@@ -20,12 +20,6 @@ AutoZone is the nation's leading retailer and a leading distributor of automotiv
 
 ## APIs
 
-### AutoZone Pro Electronic Ordering
-
-AutoZone Pro provides electronic ordering capabilities for professional automotive service providers and repair shops. The platform supports EDI-based parts ordering integrations enabling shop management systems (SMS) and point-of- sale systems to send parts orders, check availability, and receive confirmations directly from AutoZone's catalog and inventory systems.
-
-- **Human URL:** [https://www.autozonepro.com/info/about/Electronic-Ordering.jsp](https://www.autozonepro.com/info/about/Electronic-Ordering.jsp)
-- **Base URL:** `https://www.autozonepro.com`
 
 #### Tags
 

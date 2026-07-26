@@ -1,4 +1,17 @@
 aid: autozone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autozone.png
 name: AutoZone
 description: >-
   AutoZone is the nation's leading retailer and a leading distributor of automotive
@@ -8,7 +21,7 @@ description: >-
   integrations for commercial accounts via AutoZone Pro.
 url: https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-19'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 tags:
   - Auto Parts
@@ -19,29 +32,6 @@ tags:
   - Commercial Accounts
   - Fortune 500
 apis:
-  - aid: autozone:autozonepro-electronic-ordering
-    name: AutoZone Pro Electronic Ordering
-    description: >-
-      AutoZone Pro provides electronic ordering capabilities for professional
-      automotive service providers and repair shops. The platform supports EDI-based
-      parts ordering integrations enabling shop management systems (SMS) and point-of-
-      sale systems to send parts orders, check availability, and receive confirmations
-      directly from AutoZone's catalog and inventory systems.
-    humanURL: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
-    baseURL: https://www.autozonepro.com
-    tags:
-      - Auto Parts
-      - Automotive
-      - EDI
-      - Electronic Ordering
-      - Commercial Accounts
-      - Professional Installers
-    properties:
-      - type: Website
-        url: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
-      - type: Portal
-        url: https://www.autozonepro.com
-
   - aid: autozone:autozone-ecommerce
     name: AutoZone E-Commerce Platform
     description: >-
@@ -125,6 +115,8 @@ common:
         description: >-
           Integration with fleet maintenance platforms for commercial accounts
           managing parts procurement across vehicle fleets.
+  - type: About
+    url: https://www.autozonepro.com/info/about/Electronic-Ordering.jsp
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
