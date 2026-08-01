@@ -1,0 +1,15 @@
+openapi: 3.1.0
+info:
+  title: AutoZone Pro Electronic Ordering API
+  description: >-
+    AutoZone Pro provides electronic ordering for professional automotive
+    service providers. This is a placeholder specification as AutoZone does
+    not publish a public REST API. Integration is primarily through EDI.
+  version: 1.0.0
+  contact:
+    name: AutoZone
+    url: https://www.autozonepro.com
+servers:
+  - url: https://www.autozonepro.com
+    description: AutoZone Pro Portal
+paths: {}

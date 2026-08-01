@@ -1,0 +1,14 @@
+{
+  "provider": "autozone",
+  "sources": [
+    "autozonepro.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived autozonepro.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
