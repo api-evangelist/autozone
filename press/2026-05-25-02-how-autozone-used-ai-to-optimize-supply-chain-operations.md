@@ -1,7 +1,9 @@
 ---
 title: How AutoZone used AI to optimize supply chain operations
 url: https://www.linkedin.com/posts/karthikramki_autozones-ai-strategy-analysis-of-dominance-activity-7394781125669351425-sn-X
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"AutoZone" press release artificial intelligence'
 position: 2
 source: serpapi-google

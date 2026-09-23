@@ -1,7 +1,9 @@
 ---
 title: Autozone Expands Partnership with ...
 url: https://www.relexsolutions.com/news/autozone-expands-partnership-with-relex-solutions-to-optimize-efficiency-across-north-and-south-american-dc-supply-chain/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"AutoZone" press release artificial intelligence'
 position: 4
 source: serpapi-google

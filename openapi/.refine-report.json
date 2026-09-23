@@ -1,14 +1,17 @@
 {
   "provider": "autozone",
   "sources": [
-    "autozonepro.yml"
+    "_original/autozonepro.yml"
   ],
   "outputs": [],
-  "archived": [
-    "archived autozonepro.yml"
-  ],
+  "archived": [],
   "errors": [],
-  "warnings": [],
-  "notes": [],
+  "warnings": [
+    "produced no outputs (1 source(s) have no operations) \u2014 sources left in place rather than archived"
+  ],
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "autozonepro.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0"
+  ],
   "skipped": []
 }
