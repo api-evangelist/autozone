@@ -61,6 +61,12 @@ apis:
         url: https://www.autozone.com
 
 common:
+  - type: Plans
+    url: plans/autozone-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/autozone-rate-limits.yml
+  - type: FinOps
+    url: finops/autozone-finops.yml
   - type: DomainSecurity
     url: security/autozone-domain-security.yml
   - type: LinkedIn
