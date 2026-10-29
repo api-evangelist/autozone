@@ -1,4 +1,4 @@
-# AutoZone (autozone)
+# AutoZone
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,71 +66,106 @@
 
 AutoZone is the nation's leading retailer and a leading distributor of automotive replacement parts and accessories with more than 7,000 stores across the Americas. AutoZone serves both do-it-yourself (DIY) customers and professional automotive service providers (DIFM) through retail stores, e-commerce, and electronic ordering integrations for commercial accounts via AutoZone Pro.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/autozone/refs/heads/main/apis.yml)
+**Areas:** Auto Parts · Automotive Retail · Automotive · Parts Distribution · EDI · Commercial Accounts · Fortune 500
 
-## Tags
+## AutoZone on APIs.io
 
-- Auto Parts
-- Automotive Retail
-- Automotive
-- Parts Distribution
-- EDI
-- Commercial Accounts
+Everything profiled for AutoZone is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autozone/](https://apis.io/providers/autozone/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-19
+- [AutoZone E-Commerce Platform](https://apis.io/apis/autozone/autozone-ecommerce/) — AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place…
 
-## APIs
+### Published properties
 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Tags
+#### Collections (1)
 
-- Auto Parts
-- Automotive
-- EDI
-- Electronic Ordering
-- Commercial Accounts
-- Professional Installers
+Postman and Open Collection request collections.
 
-#### Properties
+- [AutoZone Pro Electronic Ordering API](https://apis.io/collections/autozone/open-autozonepro/)
 
-- [Website](https://www.autozonepro.com/info/about/Electronic-Ordering.jsp)
-- [Portal](https://www.autozonepro.com)
-- [Postman Collection](collections/autozonepro.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/autozonepro.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### Security (1)
 
-### AutoZone E-Commerce Platform
+Authentication, trust centre, and vulnerability disclosure.
 
-AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delivery, and manage their AutoZone loyalty and commercial accounts.
+- [Autozone Domain Security](https://apis.io/security/autozone/autozone-domain-security/)
 
-- **Human URL:** [https://www.autozone.com](https://www.autozone.com)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Auto Parts
-- E-Commerce
-- Parts Search
-- Online Ordering
+- [Autozone Plans Pricing](https://apis.io/plans/autozone/autozone-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Autozone Rate Limits](https://apis.io/rate-limits/autozone/autozone-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Autozone Finops](https://apis.io/finops/autozone/autozone-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.autozone.com)
-- [Postman Collection](collections/autozonepro.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/autozonepro.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [GitHub](https://github.com/autozone)
 
-## Common Properties
+## API Evangelist rating
 
-- [LinkedIn](https://www.linkedin.com/company/autozone)
-- [Website](https://www.autozone.com)
-- [Portal](https://www.autozonepro.com)
-- [GitHub Organization](https://github.com/autozone)
-- [Features](undefined)
-- [Use Cases](undefined)
-- [Integrations](undefined)
+**Kin Score 8.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 5.3 |
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autozone/](https://apis.io/providers/autozone/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AutoZone: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autozone/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
